@@ -12,7 +12,7 @@ site_theme               : "default"
 title                    : "Animesh's Homepage"
 title_separator          : "-"
 name                     : &name "Animesh Jain"
-description              : &description "personal description"
+description              : &description "PhD student in Mathematics at George Mason University. Research in numerical analysis, PDE-constrained optimization, and finite element methods."
 url                      : "https://Animesh-math.github.io/about-me" # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
@@ -32,7 +32,7 @@ author:
   email            : "ajain34@gmu.edu" 
 
   # Academic websites
-  arxiv            : # URL - Update with the correct link to your profile
+  arxiv            : "https://arxiv.org/search/?searchtype=author&query=Jain+A" # URL - Update with the correct link to your profile
   googlescholar    : #
   impactstory      : # URL
   orcid            : #

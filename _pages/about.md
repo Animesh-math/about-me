@@ -7,8 +7,6 @@ redirect_from:
   - /about.html
 ---
 
- I am currently a PhD student in Mathematics at George Mason University, working under the supervision of Dr. Harbir Antil. My research is centered on the rigorous analysis and numerical treatment of partial differential equations (PDEs), with a particular focus on PDE-constrained optimization problems. These problems arise frequently in applied sciences and engineering, where one seeks to optimize a quantity subject to the constraint that a PDE must be satisfied — often representing physical laws or dynamic systems.
+I am a PhD student in Mathematics at George Mason University, working with [Dr. Harbir Antil](https://math.gmu.edu/~hantil/). My research is in numerical analysis and scientific computing for partial differential equations — with a focus on finite element methods, PDE-constrained optimization, and adjoint-based solvers. Current projects include Fisher-information-based optimal sensor placement for structural digital twins and CVaR regularization for sparse, measure-concentrated optimization. I am also interested in the mathematical foundations of stochastic PDE models.
 
-My broader research interests include Functional Analysis, Numerical Analysis of PDEs, Stochastic Analysis, and Stochastic Partial Differential Equations (SPDEs).
-
-Prior to joining George Mason University, I completed my Master’s degree in Mathematics at the Indian Institute of Technology (IIT) Roorkee, where I worked under the supervision of Dr. Ankik Giri. My academic journey so far has been driven by a deep interest in the interplay between theory and computation, particularly in understanding how abstract mathematical structures inform practical solutions to real-world problems.
+Before GMU, I completed my M.Sc. in Mathematics at IIT Roorkee under [Prof. Ankik Giri](https://scholar.google.com/citations?user=ZJ881u8AAAAJ&hl=en), where my thesis examined deterministic and stochastic conservation laws — shock formation, weak solutions, and the effect of additive noise. My broader interests sit at the boundary between rigorous analysis (functional analysis, operator theory) and practical computation.
