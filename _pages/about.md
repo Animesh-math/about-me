@@ -7,6 +7,14 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD student in Mathematics at George Mason University, working with [Dr. Harbir Antil](https://math.gmu.edu/~hantil/). My research is in numerical analysis and scientific computing for partial differential equations, with a focus on PDE-constrained optimization, finite element methods, and adjoint-based approaches to inverse and source identification problems. On the computational side, I am currently implementing finite element solvers for time-dependent and time-independent advection-diffusion PDE-constrained optimization problems, including adjoint-based gradient computation. I am also working on CVaR regularization of exceedance functionals, with an emphasis on analysis, duality, and numerical approximation.
+I am a PhD student in Mathematics at George Mason University, working in PDE-constrained optimization, inverse problems, and scientific computing. My current research focuses on risk-averse optimization and numerical methods for optimization problems governed by partial differential equations, including inverse problems with CVaR-based spatial regularization and adjoint-based finite element implementations.
 
-My broader interests include functional analysis, operator theory, stochastic PDEs, and stochastic analysis. Before GMU, I completed my M.Sc. in Mathematics at IIT Roorkee under [Prof. Ankik Giri](https://scholar.google.com/citations?user=ZJ881u8AAAAJ&hl=en), where my thesis studied deterministic and stochastic conservation laws — shock formation, weak solutions, and the effect of additive noise.
+More broadly, I am interested in the interaction between analysis, optimization, probability, and computation. I am particularly fascinated by stochastic models and uncertainty in optimization, since randomness is an unavoidable part of most real-world systems. To me, incorporating stochasticity into mathematical models feels like one step closer to describing reality more faithfully.
+
+I also have a deep appreciation for functional analysis and the geometric and infinite-dimensional viewpoint it brings to mathematics. Much of what draws me to mathematics is the balance between rigor, structure, intuition, and creativity.
+
+Outside research, I am strongly inspired by visual approaches to learning mathematics, especially the style of 3Blue1Brown and Grant Sanderson's philosophy of building deep intuition through visualization and exploration. I am increasingly interested in communicating mathematical ideas visually and computationally, particularly for PDEs, stochastic processes, and optimization.
+
+Beyond mathematics, I enjoy playing guitar and studying music theory, especially jazz-influenced improvisation and harmonic ideas involving nondiatonic movement and extended harmony. I also enjoy reading, films, hiking, long walks in nature, and exploring new technology.
+
+And yes — I still prefer chalkboards over whiteboards.
