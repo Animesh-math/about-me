@@ -8,7 +8,7 @@ $dark-gray                  : mix(#000, $gray, 40%);
 $darker-gray                : mix(#000, $gray, 60%);
 $light-gray                 : mix(#fff, $gray, 50%);
 
-$background                 : #474747;
+$background                 : #111827;
 $background-light           : mix(#fff, $background, 80%);
 $background-lighter         : mix(#fff, $background, 90%);
 $text                       : #ffffff;
@@ -32,6 +32,33 @@ $navicon-width              : 28px;
 $navicon-height             : 4px;
 $sidebar-link-max-width     : 250px;
 $sidebar-screen-min-width   : 1024px;
+
+/* ==========================================================================
+   BODY ATMOSPHERE — deep gradient + subtle grain
+   ========================================================================== */
+
+// Replaces the flat gray body with a deep navy-slate gradient.
+// background-attachment: fixed anchors it to the viewport so the gradient
+// stays put as the user scrolls — giving a sense of depth rather than a
+// painted-on background.
+//
+// The first background layer is an inline SVG fractalNoise at 4% opacity —
+// a grain that reads as screen texture, not a pattern.
+// The second layer is the actual gradient. Both are fixed to the viewport.
+html[data-theme="dark"] body {
+  background-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E"),
+    linear-gradient(160deg, #0d1117 0%, #111827 45%, #131f31 75%, #0d1b2a 100%);
+  background-size: 200px 200px, cover;
+  background-attachment: fixed;
+  background-color: #0d1117; // solid fallback
+
+  // background-attachment: fixed has known issues on iOS Safari — fall back to
+  // scroll so the gradient still renders correctly on mobile.
+  @media (max-width: 767px) {
+    background-attachment: scroll;
+  }
+}
 
 /* Dark theme for the site */
 html[data-theme="dark"] {
