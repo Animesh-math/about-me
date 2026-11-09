@@ -13,7 +13,7 @@ redirect_from:
 
 Research Interests
 ======
-Numerical analysis and scientific computing for deterministic and stochastic partial differential equations, including finite element methods, PDE-constrained optimization, adjoint-based solvers, CVaR regularization, and operator-theoretic foundations, with applications to mathematical physics and related applied problems.
+Numerical analysis and scientific computing for deterministic and stochastic partial differential equations, including finite element methods, PDE-constrained optimization, and operator-theoretic foundations, with applications to mathematical physics and related applied problems.
 
 Education
 ======
@@ -31,6 +31,30 @@ Education
   * *July 2019 – May 2022*  
   * CGPA: 7.9/10
 
+Research Experience
+======
+* **Graduate Research Assistant**, George Mason University — *Spring 2026*  
+  Advisor: Dr. Harbir Antil  
+  * Advancing theoretical and numerical aspects of PDE-constrained optimization.
+  * Further development and analysis of finite element solvers and adjoint-based optimization methods.
+  * Ongoing work on mathematical foundations and computational strategies for deterministic and stochastic PDE models.
+
+* **Graduate Research Assistant**, George Mason University — *Spring 2025*  
+  Advisor: Dr. Harbir Antil  
+  * Implemented finite element discretizations and developed numerical solvers for PDEs.
+  * Worked on PDE-constrained optimization, focusing on adjoint-based methods for gradient computation.
+  * Studied foundational concepts in nonlinear functional analysis relevant to optimization with PDE constraints.
+
+* **Master's Thesis: Deterministic and Stochastic Conservation Laws**, IIT Roorkee — *Spring 2024*  
+  Supervisor: Prof. Ankik Kumar Giri  
+  * Analyzed first-order hyperbolic conservation laws, focusing on shock formation and global weak solutions.
+  * Applied Rankine–Hugoniot conditions and entropy methods.
+  * Extended the analysis to stochastic conservation laws with additive noise.
+
+* **Reading Project: Functional Analysis and Applications**, IIT Roorkee — *Fall 2023*  
+  Supervisor: Prof. Ankik Kumar Giri  
+  * Studied Sobolev spaces, weak convergence, compactness, and operator theory relevant to PDEs.
+
 Skills
 ======
 * **Programming:** Python, C++, MATLAB
@@ -41,6 +65,12 @@ Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+
+Talks
+======
+  <ul>{% for post in site.talks reversed %}
+    {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
 
 Teaching
@@ -62,6 +92,8 @@ Conferences and Workshops
 ======
 * **Finite Element Circus**, George Mason University, Arlington Campus, October 17–18, 2025  
   Attended invited talks on finite element methods and numerical analysis of PDEs.
+* **Sayas Numerics Day 2026**, University of Maryland, College Park, May 9, 2026  
+  Attended research talks on numerical analysis, scientific computing, and computational methods for PDEs.
 
 Selected Coursework
 ======

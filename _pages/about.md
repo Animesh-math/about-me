@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD student in Mathematics at George Mason University, working in PDE-constrained optimization, inverse problems, and scientific computing. My current research focuses on risk-averse optimization and numerical methods for optimization problems governed by partial differential equations, including inverse problems with CVaR-based spatial regularization and adjoint-based finite element implementations.
+I am a PhD student in Mathematics at George Mason University, working in PDE-constrained optimization, inverse problems, and scientific computing. My current research focuses on risk-averse optimization and numerical methods for optimization problems governed by partial differential equations, including augmented Lagrangian methods for nonsmooth risk-averse optimization, adjoint-based identification of multiple sources in advection–diffusion systems, and Fisher-information-based sensor placement for structural digital twins.
 
 More broadly, I am interested in the interaction between analysis, optimization, probability, and computation. I am particularly fascinated by stochastic models and uncertainty in optimization, since randomness is an unavoidable part of most real-world systems. To me, incorporating stochasticity into mathematical models feels like one step closer to describing reality more faithfully.
 
