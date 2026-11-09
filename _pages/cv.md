@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-[Download CV (PDF)](/files/Academic_CV.pdf)
+[Download CV (PDF)]({{ base_path }}/files/Academic_CV.pdf)
 
 Research Interests
 ======
