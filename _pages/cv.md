@@ -53,12 +53,6 @@ Research Experience
   Supervisor: Prof. Ankik Kumar Giri  
   * Studied Sobolev spaces, weak convergence, compactness, and operator theory relevant to PDEs.
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-
 Awards and Honors
 ======
 * **IIT–JAM (Mathematics)**, All India Rank 191, March 2022  
