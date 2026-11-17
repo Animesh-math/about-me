@@ -53,12 +53,6 @@ Research Experience
   Supervisor: Prof. Ankik Kumar Giri  
   * Studied Sobolev spaces, weak convergence, compactness, and operator theory relevant to PDEs.
 
-Skills
-======
-* **Programming:** Python, C++, MATLAB
-* **Scientific Computing:** Numerical methods for PDEs, finite element methods, numerical linear algebra
-* **Tools:** LaTeX, Linux-based workflow, Git & GitHub
-
 Publications
 ======
   <ul>{% for post in site.publications reversed %}

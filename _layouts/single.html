@@ -49,6 +49,7 @@ layout: default
 
         {% if page.coauthors %}<p style="font-size: smaller">Joint work with {{ page.coauthors }}</p>{% endif %}
         {% if page.paperurl %}<p style="font-size: smaller"><a href="{{ page.paperurl }}">{{ page.paperlabel | default: "View Paper" }}</a></p>{% endif %}
+        {% if page.arxivurl %}<p style="font-size: smaller"><a href="{{ page.arxivurl }}">arXiv</a></p>{% endif %}
 
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>

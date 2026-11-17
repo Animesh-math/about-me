@@ -58,6 +58,7 @@
     
     {% if post.coauthors %}<p>Joint work with {{ post.coauthors }}</p>{% endif %}
         {% if post.paperurl %}<p><a href="{{ post.paperurl }}">{{ post.paperlabel | default: "View Paper" }}</a></p>{% endif %}
+        {% if post.arxivurl %}<p><a href="{{ post.arxivurl }}">arXiv</a></p>{% endif %}
 
   </article>
 </div>

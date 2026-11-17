@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD student in Mathematics at George Mason University, working in PDE-constrained optimization, inverse problems, and scientific computing. My current research focuses on risk-averse optimization and numerical methods for optimization problems governed by partial differential equations, including augmented Lagrangian methods for nonsmooth risk-averse optimization, adjoint-based identification of multiple sources in advection–diffusion systems, and Fisher-information-based sensor placement for structural digital twins.
+I am a PhD student in Mathematics at George Mason University, working in PDE-constrained optimization, inverse problems, and scientific computing. My current research focuses on risk-averse optimization and numerical methods for optimization problems governed by partial differential equations, including augmented Lagrangian methods for nonsmooth risk-averse optimization, adjoint-based identification of multiple sources in advection–diffusion systems, and sensor placement for structural digital twins based on Fisher information.
 
 More broadly, I am interested in the interaction between analysis, optimization, probability, and computation. I am particularly fascinated by stochastic models and uncertainty in optimization, since randomness is an unavoidable part of most real-world systems. To me, incorporating stochasticity into mathematical models feels like one step closer to describing reality more faithfully.
 
@@ -15,6 +15,6 @@ I also have a deep appreciation for functional analysis and the geometric and in
 
 Outside research, I am strongly inspired by visual approaches to learning mathematics, especially the style of 3Blue1Brown and Grant Sanderson's philosophy of building deep intuition through visualization and exploration. I am increasingly interested in communicating mathematical ideas visually and computationally, particularly for PDEs, stochastic processes, and optimization.
 
-Beyond mathematics, I enjoy playing guitar and studying music theory, especially jazz-influenced improvisation and harmonic ideas involving nondiatonic movement and extended harmony. I also enjoy reading, films, hiking, long walks in nature, and exploring new technology.
+Beyond mathematics, I enjoy playing guitar and studying music theory, especially blues improvisation and harmonic ideas involving nondiatonic movement and extended harmony. I also enjoy reading, films, hiking, long walks in nature, and exploring new technology.
 
-And yes — I still prefer chalkboards over whiteboards.
+And yes, I still prefer chalkboards over whiteboards.
