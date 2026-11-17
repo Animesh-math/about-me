@@ -32,8 +32,8 @@ author:
   email            : "ajain34@gmu.edu" 
 
   # Academic websites
-  arxiv            : "https://arxiv.org/search/?searchtype=author&query=Jain+A" # URL - Update with the correct link to your profile
-  googlescholar    : #
+  arxiv            : # URL
+  googlescholar    : "https://scholar.google.com/citations?user=F0rrR4AAAAAJ&hl=en"
   impactstory      : # URL
   orcid            : #
   semantic         : # URL
